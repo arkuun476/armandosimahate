@@ -168,7 +168,7 @@ class CI_Config {
 				}
 
 				$this->is_loaded[] = $file_path;
-				$config = NULL;
+				$config['index_page'] = '';
 				$loaded = TRUE;
 				log_message('debug', 'Config file loaded: '.$file_path);
 			}
